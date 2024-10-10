@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: rgba(109, 253, 198, 0.938);
+}
+#principal {
+    width: 90%;
+    margin: 30px auto;
+}
+header {
+    background-color: green;
+    border: 10px solid black;
+}
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+header h1{
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+nav { 
+    background-color: beige;
+}
+nav a {
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: blue;
+    color: red;
+}
+.juan{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+.img{
+    width: 220px;
+    height: 150px;
+    border: 1px solid black;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+.juan h2{
+    text-align: center;
+    padding: 5px;
+}
+.purisima{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+
+.purisima h2{
+    text-align: center;
+    padding: 5px;
+}
+.aniversario{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+
+.aniversario h2{
+    text-align: center;
+    padding: 5px;
+}
+.carnaval{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+
+.carnaval h2{
+    text-align: center;
+    padding: 5px;
+}
+.amazonas{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+
+.amazonas h2{
+    text-align: center;
+    padding: 5px;
+}

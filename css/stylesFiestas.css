@@ -112,3 +112,24 @@ nav a:hover {
     text-align: center;
     padding: 5px;
 }
+
+.caballoCocha{
+    background-color: azure;
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+    border-color: black;
+    border: 5px solid black;
+    gap: 12px;
+}
+
+.caballoCocha h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.actCaballo{
+    padding: 5px;
+    display: flex;
+    gap: 6px;
+}

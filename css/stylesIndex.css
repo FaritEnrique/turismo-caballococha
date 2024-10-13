@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(114, 198, 63, 50%);
+    background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 32px;
     display: flex;
@@ -22,14 +22,13 @@ body{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    border-radius: 50%;
+    width: min(100%, 200px);
     text-align: center;
-    color: white;
-    background-image: url(..//images/Logo_Danikah_encabezado.jpeg);
-    background-size: cover;
+    
+}
+
+.logoAgencia{
+    width: min(100%, 200px);
     border-radius: 1rem;
 }
 
@@ -603,14 +602,60 @@ article p{
     color: white;
 }
 
+#modalContactos{
+    width: min(100%,600px);
+    padding: 16px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+#modalContactos, h3{
+    text-align: justify;
+}
+
+#modalContactos::backdrop{
+    background-color: rgba(205, 227, 247, 50%);
+}
+
+.contactoWhatsapp__Caballo{
+    padding: 6px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.contactoWhatsapp__Iquitos{
+    padding: 6px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+.logoWhatsapp{
+    cursor: pointer;
+}
+
+.btn-cerrar-modalContactos{
+    width: min(100%, 120px);
+    border-radius: 1rem;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 16px;
+}
+
 #modal{
     width: min(100%,600px);
     padding: 16px;
-    margin: 36px;
-    text-align: justify;
-    position: fixed;
-    top: 25%;
-    left: 25%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+#modal::backdrop{
+    background-color: rgba(205, 227, 247, 50%);
 }
 
 .btn-cerrar-modal{

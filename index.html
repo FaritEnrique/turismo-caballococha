@@ -8,7 +8,9 @@
 </head>
 <body>
     <header class="headerWrapper">
-        <div class="logo"></div>
+        <div class="logo">
+            <img class="logoAgencia" src="./images/Logo_Danikah_encabezado.jpeg" alt="">
+        </div>
         <section class="header__wrapper">
             <div class="header__principal">
                 <h1><strong>BIENVENIDOS A CABALLO COCHA</strong></h1>
@@ -17,11 +19,11 @@
                 <nav>
                     <a class="btn_modalNosotros" href="#"><strong>Nosotros</strong></a>
                     <a href="./public/ubicacion.html"><strong>Ubicación</strong></a>
-                    <a href="./public/paquete.html"><strong>Paquetes</strong></a>
-                    <a href="#"><strong>Infraestructura</strong></a>
-                    <a href="#"><strong>Servicios</strong></a>
-                    <a href="#"><strong>Promociones</strong></a>
-                    <a href="https://api.whatsApp.com/send?phone=+51953222640&text=Hola, estoy interesado en el paquete turístico a Caballo Cocha"><strong>Contacto</strong></a>
+                    <a href="./public/paquete.html" target="_blank"><strong>Paquetes</strong></a>
+                    <!-- <a href="#"><strong>Infraestructura</strong></a>
+                    <a href="#"><strong>Servicios</strong></a> -->
+                    <a href="https://danikahtravelsac.clickandbook.com/" target="_blank"><strong>Promociones</strong></a>
+                    <a class="btn_modalContactos" href="#"><strong>Contacto</strong></a>
                 </nav>
             </div>
         </section>
@@ -30,11 +32,11 @@
         <section class="sec1">
             <aside class="destacado">
                 <h2><strong>Destacados</strong></h2>
-                <a href="#">Localidades Importantes</a>
-                <a href="#">Empresas Colaboradoras</a>
+                <a href="./public/localidades.html">Localidades Importantes</a>
+                <!-- <a href="#">Empresas Colaboradoras</a> -->
                 <a href="./public/fiestas.html">Festividades de la Región</a>
-                <a href="#">Flora</a>
-                <a href="#">Fauna</a>
+                <a href="./public/Flora.html">Flora</a>
+                <a href="./public/Fauna.html">Fauna</a>
             </aside>
             <div class="compromiso">
                 <h3>Nuestro Compromiso con el Medio Ambiente y los Clientes</h3>
@@ -77,20 +79,20 @@
             </div>
             <div class="contentServicios__body">
                 <div class="contentServicios__body__Text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit asperiores eligendi illum ea voluptatem doloribus facere eaque saepe, maxime vel hic vitae voluptates, rerum harum quasi ratione. Blanditiis, architecto?</p>
+                    <p>La contratacion del <a href="./public/paquete.html">paquete</a>, contempla la prestación de servicios adicionales, que no son propios del tour a Caballo Cocha, para garantizar la comodidad y seguridad de nuestros clientes.</p>
                 </div>
                 <div class="contentServicios__body__product">
                     <figure class="product">
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__producto">
-                        <figcaption class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</figcaption>
+                        <img src=".//images/Aeropuerto_Iquitos.png" alt="" class="photo__producto">
+                        <figcaption class="coment">Como parte del servicio, está previsto el recojo en el aeropuerto, ya sea de Iquitos o Leticia. Asimismo, también se tiene contemplado el desplazamiento a la Ciudad de Caballococha en deslizador, garantizándose una total comodidad.</figcaption>
                     </figure>
                     <figure class="product">
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__producto">
-                        <figcaption class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</figcaption>
+                        <img src=".//images/Alojamiento.png" alt="" class="photo__producto">
+                        <figcaption class="coment">Se proporcionará alojamiento a los clientes en cómodas habitaciones, con camas de 2 plazas, con acceso a todos los servicios, incluyendo aire acondicionado.</figcaption>
                     </figure>
                     <figure class="product">
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__producto">
-                        <figcaption class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</figcaption>
+                        <img src=".//images/Comida.png" alt="" class="photo__producto">
+                        <figcaption class="coment">El servicio de alimentación, se proporcionará, considerando las normas sanitarias y el uso de productos de muy buena calidad, para garantizar nuestros productos. Ser servirán platos típicos de la zona, en el desayuno, almuerzo y cena. Se estará pendiente de los clientes, con sus requerimientos excepcionales, ya sea por salud u otro motivo</figcaption>
                     </figure>
                 </div>
             </div>
@@ -143,7 +145,7 @@
             </div>
             
         </section>
-        <section class="contentPersonal">
+        <!-- <section class="contentPersonal">
             <div class="contentPersonal__title">
                 <h2><strong>Nuestro Personal</strong></h2>
             </div>
@@ -161,7 +163,7 @@
                     <figcaption class="hojaVida">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</figcaption>
                 </figure>
             </div>
-        </section>
+        </section> -->
         <section class="galery">
             <div class="title__galery">
                 <h2><strong>Galería de Fotos</strong></h2>
@@ -271,11 +273,12 @@
                 </article> -->
                 <div class="testimonio">
                     <figure>
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__testimonio">
+                        <img src=".//images/Piero.png" alt="" class="photo__testimonio">
                     </figure>
                     <div class="opinion">
-                        <h4 class="titulo__opinion"><strong>Nombre</strong></h4>
-                        <p class="comentario__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</p>
+                        <h4 class="titulo__opinion"><strong>Piero Alejandro</strong></h4>
+                        <p class="comentario__opinion">Una muy buena experiencia, estar en contacto con la narturaleza, atendido por un 
+                            personal de primera y sobre todo muy buenos precios.</p>
                     </div>
                     <div class="contentButton">
                         <button class="boton">Ver más</button>
@@ -283,11 +286,13 @@
                 </div>
                 <div class="testimonio">
                     <figure>
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__testimonio">
+                        <img src=".//images/Debora.png" alt="" class="photo__testimonio">
                     </figure>
                     <div class="opinion">
                         <h4 class="titulo__opinion"><strong>Nombre</strong></h4>
-                        <p class="comentario__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</p>
+                        <p class="comentario__opinion">Lo que más me gustó es disfrutar de la naturaleza y conocer un poco más de mi hermosa 
+                            tierra. Un servicio de alimentación de primera, con productos de muy buena calidad. La atención en todo momento 
+                            fue óptima por el personal, que en todo momento está pendiente de uno. Recomendado al 100%.</p>
                     </div>
                     <div class="contentButton">
                         <button class="boton">Ver más</button>
@@ -295,11 +300,13 @@
                 </div>
                 <div class="testimonio">
                     <figure>
-                        <img src=".//images/Casa_de_Fierro_Iquitos,_Perú.jpg" alt="" class="photo__testimonio">
+                        <img src=".//images/Cesar.png" alt="" class="photo__testimonio">
                     </figure>
                     <div class="opinion">
                         <h4 class="titulo__opinion"><strong>Nombre</strong></h4>
-                        <p class="comentario__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum, et non iure sit cupiditate odit id ut aperiam ratione modi expedita eveniet architecto alias. Cum ipsa incidunt laborum placeat!</p>
+                        <p class="comentario__opinion">Hay que destacar la atención, en todo momento se proporcionaron las comodidades del 
+                            caso, considerando desde las embarcaciones, el alojamiento y la alimentación, todo muy bien organizado. Fue 
+                            sensacional pasar con la familia y ponerse en contarto con la naturaleza. Se tiene que volver de todas maneras.</p>
                     </div>
                     <div class="contentButton">
                         <button class="boton">Ver más</button>
@@ -307,6 +314,32 @@
                 </div>
             </div>
         </section>
+        <dialog id="modalContactos">
+            <h3>Contactos</h3>
+            <br>
+            <p>Para solicitar información, envíe un whatsApp, indicando la información que requiera. Para los Tours en la ciudad de Caballo Cocha, hacer click en el ícono de Caballo Cocha. Para otros paquetes turísticos, compra de pasajes, hacer click en el ícono de Iquitos.</p>
+            <br>
+            <div class="contentContactos">
+                <div class="contactoCaballo">
+                    <h4>Información Tours Caballo Cocha</h4>
+                    <br>
+                    <div class="contactoWhatsapp__Caballo">
+                        <a href="https://api.whatsApp.com/send?phone=+51926245191&text=Hola, estoy interesado en el paquete turístico a Caballo Cocha" target="_blank"><img  src=".//images/whatsApp.png" class="logoWhatsapp" alt=""></a></span>
+                        <p>+51 926 245191</p>
+                    </div>
+                </div>
+                <br>
+                <div class="contactoIquitos">
+                    <h4>Información Paquetes y Pasajes Aéreos</h4>
+                    <br>
+                    <div class="contactoWhatsapp__Iquitos">
+                        <a href="https://api.whatsApp.com/send?phone=+5191736533240&text=Hola, requiero información" target="_blank"><img src=".//images/whatsApp.png" class="logoWhatsapp" alt=""></a></span>
+                        <span>+51 917 365332</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-cerrar-modalContactos">Cerrar</button>
+        </dialog>
         <dialog id="modal">
             <h3>¿Quiénes Somos</h3>
             <p>Gracias por visitar nuestro sitio Web, DANIKAH TRAVEL, es una agencia líder en el área de negocios del turismo y vuelos aereos, contamos con atención especializada en los más diversos productos del rubro, como asesoría y venta de pasajes aéreos nacionales e internacionales, paquetes turísticos, cruceros marítimos, excurciones, etc.<br>
@@ -317,10 +350,10 @@
     <footer>
         <p><strong>Derechos Reservados Iquitos, Perú - 2024</strong></p>
         <div class="contentRedes">
-            <a class="aWhatsapp" href="https://api.whatsApp.com/send?phone=+51917365332&text=Hola, estoy interesado en el paquete turístico a Caballo Cocha"><img class="whatsapp" src=".//images/whatsApp.png"></img></a>
-            <a class="aFacebook" href="https://web.facebook.com/profile.php?id=100057419862464&mibextid=LQQJ4d&_rdc=1&_rdr"><img class="facebook" src=".//images/facebook.png"></img></a>
-            <a class="aInstagram" href="https://www.instagram.com/p/DA5C54tO16m/"><img class="instagram" src=".//images/Instagram-Icon.png"></img></a>
-            <a class="aYoutube" href="https://www.youtube.com/@danikahtravelsac7404"><img class="youtube" src=".//images/youtube.png" alt=""></a>
+            <a class="aWhatsapp" href="https://api.whatsApp.com/send?phone=+51917365332&text=Hola, estoy interesado en el paquete turístico a Caballo Cocha" target="_blank"><img class="whatsapp" src=".//images/whatsApp.png"></img></a>
+            <a class="aFacebook" href="https://web.facebook.com/profile.php?id=100057419862464&mibextid=LQQJ4d&_rdc=1&_rdr" target="_blank"><img class="facebook" src=".//images/facebook.png"></img></a>
+            <a class="aInstagram" href="https://www.instagram.com/p/DA5C54tO16m/" target="_blank"><img class="instagram" src=".//images/Instagram-Icon.png"></img></a>
+            <a class="aYoutube" href="https://www.youtube.com/@danikahtravelsac7404" target="_blank"><img class="youtube" src=".//images/youtube.png" alt=""></a>
         </div>
     </footer>
     <script src="./public/main.js"></script>

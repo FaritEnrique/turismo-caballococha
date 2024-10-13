@@ -25,3 +25,15 @@ btnAbrirModal.addEventListener('click', () => {
 btnCerrarModal.addEventListener('click', () => {
     modal.close();
 })
+
+const btnAbrirModalContactos = document.querySelector('.btn_modalContactos');
+const btnCerrarModalContactos= document.querySelector('.btn-cerrar-modalContactos');
+const modalContactos =  document.querySelector('#modalContactos');
+
+btnAbrirModalContactos.addEventListener('click', () => {
+    modalContactos.showModal();
+})
+
+btnCerrarModalContactos.addEventListener('click', () => {
+    modalContactos.close();
+})

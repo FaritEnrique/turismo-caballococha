@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dela+Gothic+One&family=Ga+Maamli&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,28 +12,28 @@
 body{
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
 }
 
 .headerWrapper{
     width: min(100%, 1200px);
     display: flex;
-    margin-bottom: 16px;
-    gap: 16px;
+    margin: 16px;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .logo{
-    width: min(100%, 200px);
+    width: 17%;
     text-align: center;
+    object-fit: contain;
     
 }
 
 .logoAgencia{
-    width: min(100%, 200px);
+    width: 100%;
     border-radius: 1rem;
 }
 
@@ -40,7 +41,8 @@ body{
     background: url(../images/Portada.jpeg) no-repeat;
     background-size: cover;
     border-radius: 1rem;
-    width: min(100%, 1000px);
+    width: 1000px;
+    height: auto;
     padding: 16px;
     text-align: center;
     position: relative;
@@ -50,8 +52,8 @@ body{
     box-shadow: 0 0 20px rgba(20, 17, 220,0.8);
 }
 
-.header__principal h1{
-    width: min(100%, 550px);
+.header__bienvenida h1{
+    width: 100%;
     /* font-family: "Alfa Slab One", serif;
     font-weight: 600;
     font-style: normal; */
@@ -61,16 +63,29 @@ body{
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-shadow: 10px 5px 0px white, 7px 7px 0px red;
+    border-radius: 1rem;
     background-color: white;
     padding: 6px;
 }
+
+.botonMenu{
+    border-radius: 20%;
+    background-color: blue;
+    font-size: 12px;
+    font: bold;
+    color: white;
+    width: 80px;
+    padding: 6px;
+    cursor: pointer;
+    display: none;
+}
+
 .header__nav{
     position: absolute;
     bottom: 0;
     border: 1px solid black;
     border-radius: 1rem;
-    width: 80%;
+    width: 400px;
     align-items: center;
     padding: 4px;
     background-color: azure;
@@ -78,6 +93,7 @@ body{
     margin-bottom: 8px;
 }
 nav a {
+    font-size: 12px;
     text-decoration: none;
     padding: 8px;
 }

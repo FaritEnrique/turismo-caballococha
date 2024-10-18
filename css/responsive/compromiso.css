@@ -1,21 +1,33 @@
 @media screen and (max-width: 815px) {
     .sec1{
+        width: min(100%, 815px);
         display: flex;
         flex-direction: column;
+        padding: 16px;
     }
 
     .destacado{
-        width: 100%/*min(100%, 815px)*/;
+        width: min(100%, 815px);
         display: flex;
         gap: 20px;
         align-items: center;
         justify-content: center;
     }
+
+    .compromiso{
+        width: min(100%, 815px);
+    }
+
     .compromiso__contenido{
+        width: min(100%, 815px);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .compromiso h3{
+        width: 100%;
     }
 
     .photoCompromiso{

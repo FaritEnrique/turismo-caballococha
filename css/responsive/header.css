@@ -17,10 +17,12 @@
     .botonMenu{
         display: block;
         margin: 8px;
+        cursor: pointer;
     }
 
     .cerrarMenu{
         display: block;
+        cursor: pointer;;
     }
     
     .header__nav{
@@ -29,8 +31,7 @@
         border: 0;
         width: 150px;
         height: auto;
-        opacity: 0;
-        visibility: hidden;
+        background-color: rgba(255, 255, 255, 0);
     }
 
     nav{
@@ -53,6 +54,11 @@
     
     nav a{
         color: white;
+    }
+
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
     }
 
 }

@@ -37,3 +37,16 @@ btnAbrirModalContactos.addEventListener('click', () => {
 btnCerrarModalContactos.addEventListener('click', () => {
     modalContactos.close();
 })
+
+/* const navMenu = document.querySelector('#navMenu');
+const botonMenu = document.querySelector('#botonMenu');
+const botonCerrarMenu = document.querySelector('#botonCerrarMenu');
+
+botonMenu.addEventListener('click', () => {
+    navMenu.classList.add('visible');
+})
+
+botonCerrarMenu.addEventListener('click', () => {
+    navMenu.classList.remove('visible');
+})
+ */

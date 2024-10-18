@@ -5,7 +5,54 @@
         align-items: center;
         margin: 32px;
     }
+
+    .logo{
+        width: min(100%, 200px);
+    }
+
+    .header__Wrapper{
+        width: min(100%, 815px);
+    }
+
     .botonMenu{
         display: block;
+        margin: 8px;
     }
+
+    .cerrarMenu{
+        display: block;
+    }
+    
+    .header__nav{
+        top: 0;
+        right: 0;
+        border: 0;
+        width: 150px;
+        height: auto;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    nav{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    nav{
+        width: 150px;
+        top: 0;
+        right: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: end;
+        gap: 1rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    }
+    
+    nav a{
+        color: white;
+    }
+
 }

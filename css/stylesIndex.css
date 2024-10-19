@@ -532,11 +532,11 @@ aside a:hover{
     background-color: white;
 }
 
-@media(max-width: 600px){
+/* @media screen and (max-width: 600px){
     .columns_galery{
         flex: 100%;
     }
-}
+} */
 
 .photo{
     background-color: black;

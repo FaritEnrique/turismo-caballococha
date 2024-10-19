@@ -1,0 +1,41 @@
+@media screen and (max-width: 815px) {
+    .contentServicios__body__product{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product{
+        width: min(100%, 700px);
+        display: flex;
+        align-items: center;
+    }
+
+    .photo__producto{
+        width: 20%;
+    }
+}
+
+/* <section class="contentServicios">
+    <div class="contentServicios__title">
+        <h2><strong>Nuestros Servicios</strong></h2>
+    </div>
+    <div class="contentServicios__body">
+        <div class="contentServicios__body__Text">
+            <p>La contratacion del <a href="./public/paquete.html">paquete</a>, contempla la prestación de servicios adicionales, que no son propios del tour a Caballo Cocha, para garantizar la comodidad y seguridad de nuestros clientes.</p>
+        </div>
+        <div class="contentServicios__body__product">
+            <figure class="product">
+                <img src=".//images/Aeropuerto_Iquitos.png" alt="" class="photo__producto">
+                <figcaption class="coment">Como parte del servicio, está previsto el recojo en el aeropuerto, ya sea de Iquitos o Leticia. Asimismo, también se tiene contemplado el desplazamiento a la Ciudad de Caballococha en deslizador, garantizándose una total comodidad.</figcaption>
+            </figure>
+            <figure class="product">
+                <img src=".//images/Alojamiento.png" alt="" class="photo__producto">
+                <figcaption class="coment">Se proporcionará alojamiento a los clientes en cómodas habitaciones, con camas de 2 plazas, con acceso a todos los servicios, incluyendo aire acondicionado.</figcaption>
+            </figure>
+            <figure class="product">
+                <img src=".//images/Comida.png" alt="" class="photo__producto">
+                <figcaption class="coment">El servicio de alimentación, se proporcionará, considerando las normas sanitarias y el uso de productos de muy buena calidad, para garantizar nuestros productos. Ser servirán platos típicos de la zona, en el desayuno, almuerzo y cena. Se estará pendiente de los clientes, con sus requerimientos excepcionales, ya sea por salud u otro motivo</figcaption>
+            </figure>
+        </div>
+    </div>
+</section> */

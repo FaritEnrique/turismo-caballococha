@@ -1,0 +1,10 @@
+@media screen and(max-width: 815px) {
+    .galery{
+        width: min(100%, 815px);
+    }
+
+    .galery__content{
+        flex-direction: column;
+    }
+
+}

@@ -446,7 +446,7 @@ aside a:hover{
     padding: 16px;
 }
 
-.contentPersonal{
+/* .contentPersonal{
     width: min(100%, 1200px);
     margin-bottom: 16px;
     border: 1px solid black;
@@ -488,7 +488,7 @@ aside a:hover{
     margin-bottom: 8px;
     padding-left: 8px;
     padding-right: 8px;
-}
+} */
 
 .galery{
     width: min(100%, 1200px);

@@ -1,0 +1,185 @@
+@media screen and (max-width: 815px) {
+    .programa{
+        width: min(100%, 815px);
+    }
+
+    .programa__contenido{
+       grid-template-rows: repeat(5, 1fr);
+       grid-template-columns: 1fr;
+    }
+
+    .programa__contenido__laguna{
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 100px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .programa__contenido__laguna h4{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .programa__contenido__laguna p{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .programa__contenido__flora{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .ul__contenido__flora{
+        margin-left: 30 px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .li__flora{
+        margin: 0 0 0 16px;
+        grid-column: 1/2;
+    }
+
+    .programa__contenido__fauna{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .ul__contenido__fauna{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .li__fauna{
+        margin: 0 0 0 16px;
+        grid-column: 1/2;
+    }
+
+    .programa__contenido__esoterismo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 80px;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .programa__contenido__esoterismo h4{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .programa__contenido__esoterismo p{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .programa__contenido__detalle{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    /* .programa__contenido__detalle ul{
+        padding: 16px;
+    } */
+    
+}
+
+
+/* .programa__contenido{
+    border-radius: 1rem;
+    padding: 16px;
+    position: relative;
+    background-color: lightgrey;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    } */
+
+/* .programa__contenido__laguna{
+    border-radius: 1rem;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image:
+        linear-gradient(0deg, rgba(122, 122, 120, 0.1), rgba(204, 204, 202, 0.1)),
+        url(../images/Fondo_Laguna.jpeg);
+    background-size: cover,cover;
+    text-align: justify;
+    grid-column: 1/5;
+    grid-row: 1/5;
+} */
+
+/* .programa__contenido__flora{
+    border-radius: 1rem;
+    color: white;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image:
+        linear-gradient(0deg, rgba(122, 122, 120, 0.5), rgba(204, 204, 202, 0.5)),
+        url(../images/Foto_flora.jpg);
+    background-size: cover,cover;
+    text-align: justify;
+    grid-column: 5/9;
+    grid-row: 1/5;
+} */
+
+
+
+/* .programa__contenido__fauna{
+    border-radius: 1rem;
+    padding: 16px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image:
+        linear-gradient(0deg, rgba(122, 122, 120, 0.5), rgba(204, 204, 202, 0.5)),
+        url(../images/Foto_fauna.png);
+    background-size: cover,cover;
+    text-align: justify;
+    grid-column: 1/5;
+    grid-row: 5/9;
+} */
+
+
+
+/* .programa__contenido__esoterismo{
+    border-radius: 1rem;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image:
+        linear-gradient(0deg, rgba(122, 122, 120, 0.5), rgba(204, 204, 202, 0.5)),
+        url(../images/Foto_Ayahuasca.png);
+    background-size: cover,cover;
+    text-align: justify;
+    grid-column: 5/9;
+    grid-row: 5/9;
+} */
+
+
+
+/* .programa__contenido__detalle{
+    padding: 16px;
+    border-radius: 1rem;
+    background: white;
+    text-align: justify;
+    /* position: absolute;
+    text-align: justify;
+    justify-self: center;
+    grid-column: 4/6;
+    grid-row: 3/7;
+} */
+
+

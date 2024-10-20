@@ -6,7 +6,7 @@
 body{
     background-image:
         linear-gradient(0deg, rgba(128, 139, 150,30%),rgba(242, 244, 244,30%)),
-        url(../images/Foto_fondoCiudades.jpg);
+        url(/images/Foto_fondoCiudades.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -41,7 +41,7 @@ h1{
     text-align: center;
 }
 
-.figFlora{
+.figFauna{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,13 +49,13 @@ h1{
     margin: 16px;
 }
 
-.textoFlora{
+.textoFauna{
     background-color: white;
     text-align: justify;
     padding: 32px;
 }
 
-.photoVictoria{
+.photoBufeo{
     width: min(100%, 200px);
     border: 1px solid black;
     border-radius: 1rem;
@@ -64,7 +64,7 @@ h1{
     transition: 4s;
 }
 
-.photoVictoria:hover{
+.photoBufeo:hover{
     transform: scale(2);
     transition: 4s;
 }

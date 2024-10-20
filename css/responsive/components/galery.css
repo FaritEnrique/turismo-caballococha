@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 590px) {
+/* @media screen and (max-width: 590px) {
     .galery{
         width: min(100%, 590px);
     }
@@ -76,4 +76,4 @@
         text-align: justify;
         margin: 5px, 0, 5px, 0;
     }
-}
+} */

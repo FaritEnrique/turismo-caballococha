@@ -10,9 +10,19 @@
     .destacado{
         width: min(100%, 815px);
         display: flex;
+        flex-direction: column;
         gap: 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    .destacado__title{
+        width: min(100%, 815px);
+    }
+
+    .destacado__opciones{
+        width: min(100%, 815px);
+        display: flex;
     }
 
     .compromiso{
@@ -36,7 +46,7 @@
     }
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     .sec1{
         width: min(100%, 640px);
         margin: 16px;
@@ -72,4 +82,4 @@
     .photoCompromiso{
         width: min(100%, 200px);
     }
-}
+} */

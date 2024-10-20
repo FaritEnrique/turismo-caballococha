@@ -19,7 +19,7 @@ main{
     padding: 16px;
     background-image:
         linear-gradient(0deg, rgba(245, 245, 234, 50%), rgba(136, 247, 136, 0.5)),
-        url(../images/Fondo_Laguna.jpeg);
+        url(/images/Fondo_Laguna.jpeg);
 }
 
 .texto h1{

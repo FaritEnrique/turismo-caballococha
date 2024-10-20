@@ -1,11 +1,11 @@
-@media screen and (max-width: 815px) {
+@media (min-width: 250px) and (max-width: 815px) {
     .programa{
         width: min(100%, 815px);
     }
 
     .programa__contenido{
-       grid-template-rows: repeat(5, 1fr);
-       grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .programa__contenido__laguna{

@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 815px) {
+@media (min-width: 250px) and (max-width: 815px) {
     .slider{
         width: min(100%, 8150px);
     }

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dela+Gothic+One&family=Ga+Maamli&display=swap');
+@import url('./responsive/styleresponsive.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerWrapper{
+    width: min(100%, 1200px);
+    display: flex;
+    margin: 16px;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: min(100%, 1200px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: min(100%, 1200px);
+    position: relative;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: beige;
+    padding: 16px;
+    text-align: center;
+    
+}
+
+.contentRedes{
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    place-content: center;
+    
+}
+
+.contentRedes a{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 12px;
+    background-color: white;
+}
+
+.aWhatsapp:hover{
+    background-color: rgb(210, 248, 153);
+}
+
+.aFacebook:hover{
+    background-color: rgb(53, 203, 253);
+
+}
+
+.aInstagram:hover{
+    background-color: rgb(248, 218, 162);
+}
+
+.aYoutube:hover{
+    background-color: rgb(247, 176, 176);
+}
+
+.whatsapp{
+    border-radius: 22%;
+}
+
+.facebook{
+    border-radius: 22%;
+}
+
+.instagram{
+    border-radius: 22%;
+}

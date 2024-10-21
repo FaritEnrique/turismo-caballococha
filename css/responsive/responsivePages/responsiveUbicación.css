@@ -1,0 +1,24 @@
+@media (min-width: 100px) and (max-width: 815px) {
+    .imagenes{
+        flex-direction: column;
+        width: min(100%, 783px);
+        justify-content: center;
+        align-items: center
+    }
+    
+    .mapa{
+        width: min(100%, 783px);
+        align-items: center;
+        
+    }
+    
+    .croquis{
+        width: min(100%, 783px);
+        align-items: center;
+    }
+    
+    .paisaje{
+        width: min(100%, 783px);
+        align-items: center;
+    }
+}

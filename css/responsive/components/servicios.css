@@ -7,11 +7,12 @@
     .product{
         width: min(100%, 700px);
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
     .photo__producto{
-        width: 20%;
+        width: 80%;
     }
 }
 

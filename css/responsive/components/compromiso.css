@@ -1,4 +1,4 @@
-@media (min-width: 250px) and (max-width: 815px) {
+@media (min-width: 100px) and (max-width: 815px) {
     .sec1{
         width: min(100%, 815px);
         margin: 32px;
@@ -8,15 +8,13 @@
     }
 
     .destacado{
-        width: 800px;
+        width: min(100%, 815px);
         border-radius: 1rem;
-        border: 8px solid red;
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
         justify-content: center;
-        background-color: aquamarine;
     }
 
     .destacado__title{
@@ -25,9 +23,8 @@
     }
 
     .destacado__opciones{
-        width: 700px;
+        width: min(100%, 815px);
         display: flex;
-        background-color: blue;
     }
 
     .compromiso{

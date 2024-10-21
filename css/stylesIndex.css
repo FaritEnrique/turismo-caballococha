@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dela+Gothic+One&family=Ga+Maamli&display=swap');
-@import url('./responsive/styleresponsive.css');
 
 * {
     box-sizing: border-box;
@@ -84,19 +83,6 @@ body{
     justify-content: right;
 }
 
-.botonMenu{
-    border-radius: 1rem;
-    background-color: blue;
-    font-size: 16px;
-    font: bold;
-    color: white;
-    width: 80px;
-    padding: 6px;
-    margin-right: 16px;
-    cursor: pointer;
-    display: none;
-}
-
 .cerrarMenu{
     display: none;
 }
@@ -132,6 +118,19 @@ main{
     margin: 16px;
     align-items: center;
     justify-content: center;
+}
+
+.botonMenu{
+    border-radius: 1rem;
+    background-color: blue;
+    font-size: 16px;
+    font: bold;
+    color: white;
+    width: 80px;
+    padding: 6px;
+    margin-right: 16px;
+    cursor: pointer;
+    display: none;
 }
 
 .sec1{
@@ -785,3 +784,5 @@ footer{
 .instagram{
     border-radius: 22%;
 }
+
+/* @import url('./responsive/styleresponsive.css'); */
